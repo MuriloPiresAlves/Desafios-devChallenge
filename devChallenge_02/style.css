@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  padding: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 40px;
+  margin-right: 350px;
+  margin-top: 10px;
+  color: #d2872c;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+header .menu {
+  padding: 50px;
+}
+
+header .menu ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  color: #766f68;
+}
+
+header .menu ul li a:visited {
+  text-decoration: none;
+}
+
+header .menu ul li a:hover {
+  color: lightsalmon;
+}
+
+header .menu ul li .home,
+.features,
+.contact {
+  margin-right: 25px;
+  color: #766f68;
+  list-style-type: none;
+}
+
+main {
+  width: 100vw;
+  padding-left: 150px;
+  display: flex;
+}
+
+main .textos {
+  position: absolute;
+  z-index: 0;
+}
+
+main .textos h2 {
+  font-size: 80px;
+  color: #766f68;
+}
+
+main .textos h3 {
+  font-size: 30px;
+  color: #766f68;
+}
+
+main .textos a button {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 2px;
+  width: 320px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #d2872c;
+  cursor: pointer;
+}
+
+main .textos a button:hover {
+  background-color: lightsalmon;
+}
+
+main .imagem img {
+  width: 690px;
+  height: 420px;
+  position: absolute;
+  z-index: -1;
+  margin-top: 35px;
+  margin-left: 390px;
+}

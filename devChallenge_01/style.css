@@ -1,0 +1,309 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 30px;
+  padding-right: 5px;
+  /* position: fixed; */
+  /* background-color: white; */
+}
+
+header .titleLogo {
+  margin-right: 30px;
+}
+
+header .titleLogo h1 {
+  font-size: 30px;
+  color: #d6000d;
+  padding: 10px;
+}
+
+header .titleLogo span {
+  color: black;
+}
+
+header .menuItens {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+header .menuItens ul li {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding: 10px;
+  padding-right: 1px;
+  width: 38vw;
+  align-items: center;
+  justify-content: center;
+}
+
+header .menuItens ul li a {
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+header .menuItens ul li a button {
+  border-radius: 8px;
+  padding: 8px;
+  width: 100px;
+  margin-left: 5px;
+  border: none;
+  background-color: #d6000d;
+  color: white;
+  cursor: pointer;
+}
+
+header .menuItens ul li a button:visited {
+  text-decoration: none;
+}
+
+header .menuItens ul li a button:hover {
+  background-color: lightsalmon;
+}
+
+main {
+  display: flex;
+  padding: 30px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .logo1 img {
+  width: 350px;
+  height: 280px;
+  margin-left: 90px;
+}
+
+main .page1 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 90px;
+  width: 50vw;
+}
+
+main .page1 h2 {
+  font-size: 16px;
+  width: 100%;
+}
+
+main .page1 h3 {
+  font-size: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: #d6000d;
+}
+
+main .page1 a button {
+  border-radius: 8px;
+  padding: 8px;
+  width: 180px;
+  margin-left: 5px;
+  border: none;
+  background-color: #d6000d;
+  color: white;
+  cursor: pointer;
+}
+
+main .page1 a button:hover {
+  background-color: lightsalmon;
+}
+
+.check1,
+.check2,
+.check3,
+.check4,
+.check5,
+.check6 {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.section1 {
+  display: flex;
+  margin-top: 50px;
+  padding: 30px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section1 .listaItens {
+  width: 50vw;
+  margin-left: 120px;
+}
+
+.section1 .listaItens ul li {
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.section1 .listaItens ul li i {
+  color: #d6000d;
+}
+
+.section1 .listaItens ul li p {
+  font-size: 18px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 .logo2 {
+  width: 50vw;
+}
+
+.section1 .logo2 img {
+  width: 350px;
+  height: 280px;
+  margin-right: 100px;
+}
+
+.section2 {
+  margin-top: 50px;
+  padding: 30px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 120px;
+}
+
+.section2 .disponibilidade p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.section2 .celular input {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightgrey;
+  padding: 10px;
+  width: 200px;
+  margin-right: 5px;
+}
+
+.section2 .celular a button {
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin-left: 5px;
+  border: none;
+  background-color: #d6000d;
+  color: white;
+  cursor: pointer;
+}
+
+.section2 .celular a button:hover {
+  background-color: lightsalmon;
+}
+
+.section3 {
+  display: flex;
+  margin-top: 50px;
+  padding: 30px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 70px;
+}
+
+.section3 .relato1 {
+  display: flex;
+  width: 50vw;
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.section3 .relato1 .relatoTextos {
+  display: block;
+}
+
+.section3 .relato2 {
+  display: flex;
+  width: 50vw;
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin-right: 150px;
+  height: 177px;
+  padding: 20px;
+}
+
+.section3 .relato2 .relatoTextos2 {
+  display: block;
+}
+
+.section3 .relato1 i {
+  font-size: 100px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+
+.section3 .relato2 i {
+  font-size: 100px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  padding: 100px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  margin-top: 50px;
+}
+
+footer .marca p strong {
+  font-size: 30px;
+  width: 100vw;
+}
+
+footer .sobre p strong {
+  font-size: 30px;
+  width: 100vw;
+}
+
+footer .contato p strong {
+  font-size: 30px;
+  width: 100vw;
+}
+
+footer .redesSociais p strong {
+  font-size: 30px;
+  width: 100vw;
+}
+
+footer .redesSociais i {
+  color: #d6000d;
+  font-size: 35px;
+  justify-content: space-around;
+  margin-right: 15px;
+  padding-left: 15px;
+}
